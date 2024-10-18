@@ -11,7 +11,6 @@ const Slice=createSlice({
         },
 
         decrement:(state,action)=>{
-            if(state.count==0) return
             state.count-=action.payload
         }
 
